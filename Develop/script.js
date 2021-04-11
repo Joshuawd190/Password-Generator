@@ -49,6 +49,7 @@ var generatePassword = function () {
     passwordData.hasSpecial = window.confirm(
       "Would you like to include special characters?"
     );
+    //validate that at least one char is true
     var hasCriteria = [
       passwordData.hasLowercase,
       passwordData.hasNumber,
@@ -62,7 +63,6 @@ var generatePassword = function () {
   };
 
   confirmCriteria();
-  //validate that at least one char is true
 
   //generate random pass
   //26 letters, 33 special char, 10 num(incuding 0)
