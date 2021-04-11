@@ -36,7 +36,34 @@ var generatePassword = function () {
   }
 
   //window confirm password criteria
+  var confirmCriteria = function () {
+    passwordData.hasLowercase = window.confirm(
+      "Would you like to include lowercase letters?"
+    );
+    passwordData.hasUppercase = window.confirm(
+      "Would you like to include uppercase letters?"
+    );
+    passwordData.hasNumber = window.confirm(
+      "Would you like to include numbers?"
+    );
+    passwordData.hasSpecial = window.confirm(
+      "Would you like to include special characters?"
+    );
+    var hasCriteria = [
+      passwordData.hasLowercase,
+      passwordData.hasNumber,
+      passwordData.hasUppercase,
+      passwordData.hasSpecial,
+    ];
+    if (!hasCriteria.includes(true)) {
+      window.alert("You must include at least one criteria!");
+      confirmCriteria();
+    }
+  };
+
+  confirmCriteria();
   //validate that at least one char is true
+
   //generate random pass
   //26 letters, 33 special char, 10 num(incuding 0)
   //randomly choose category
