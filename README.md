@@ -8,15 +8,15 @@ This password generator was written to create a sample password with a length be
 
 The user can choose from several password criteria:
 
--Lowercase Letters
+- Lowercase Letters
 
--Uppercase Letters
+- Uppercase Letters
 
--Special Characters
+- Special Characters
 
--Numbers
+- Numbers
 
-![A screenshot of the web page](./assets/images/Horiseon_screenshot.png)
+![A screenshot of the web page](./assets/images/joshuawd190.github.io_Password-Generator)
 
 ## Link to Deployed Website
 
