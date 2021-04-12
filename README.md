@@ -16,7 +16,7 @@ The user can choose from several password criteria:
 
 - Numbers
 
-![A screenshot of the web page](./assets/images/joshuawd190.github.io_Password-Generator)
+![A screenshot of the web page](./assets/images/joshuawd190.github.io_Password-Generator.png)
 
 ## Link to Deployed Website
 
