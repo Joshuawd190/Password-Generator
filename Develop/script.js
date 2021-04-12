@@ -17,11 +17,6 @@ var passwordData = {
   },
 };
 
-//regex to test pass string for criteria
-const testNum = new RegExp(/\d+/);
-const testLower = new RegExp(/[a-z]+/);
-const testUpper = new RegExp(/[A-Z]+/);
-const testSpec = new RegExp(/[^0-9][^a-z][^A-Z]/);
 //arrays for letters and special characters
 var lettersArry = [
   "a",
